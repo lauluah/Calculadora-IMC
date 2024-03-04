@@ -5,7 +5,8 @@ let altura = parseInt(document.getElementById("teste2").value);
 let alturaEmMestros = altura / 100;
 
 let contaDoImc = peso / (alturaEmMestros * alturaEmMestros);
-
+contaDoImc = contaDoImc.toFixed(1);
+    
 let msg;
 
     if (contaDoImc < 18.5) {
