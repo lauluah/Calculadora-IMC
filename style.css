@@ -19,15 +19,14 @@ body {
 .container {
     max-width: 500px;
     margin: 50px auto; /* fzr o neg afastar da margem*/
-    background: white ;
+    background: white;
     padding: 20px;
     border-radius: 20px;
    
 }
 
-form input, form label, form button {
-     
-    display: block ;
+form input, form label, form button {    
+    display: block;
     width: 100%;
     margin-bottom: 10px
 }
