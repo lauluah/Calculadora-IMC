@@ -1,0 +1,50 @@
+:root {
+    --primary-color: rgba(64, 97, 140, 0.701);
+}
+
+* {
+   box-sizing: border-box;
+   outline: 0; 
+}
+
+body {
+    font-style: arial;
+    margin: 2px;
+    padding: 10px;
+    background: var(--primary-color);
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto; /* fzr o neg afastar da margem*/
+    background: white ;
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+
+form input, form label, form button {
+     
+    display: block ;
+    width: 100%;
+    margin-bottom: 10px
+}
+
+form input {
+    padding: 0 20px;
+} 
+
+.tabela {
+    max-width: 100%;
+    height: 10pox;
+    font-size: 2px;
+}
+
+.opcoes {
+    font-size: 17px;
+    background-color: rgba(183, 202, 228, 0.877);
+    padding: 8px;
+    border-radius: 8px;
+}
